@@ -16,15 +16,11 @@ except FileNotFoundError:
     exit() # Zakończ program, jeśli nie ma danych
 
 # Spojrzenie na dane
-print(dane.head())
-print("\n") 
-
+print(dane.head()) 
 dane.info()
 print("\n")
 
-
 # Wizualizacja Danych (EDA)
-
 sns.set_theme(style="whitegrid")
 
 # Analiza rozkładu kosztów (zmienna 'charges')
@@ -57,7 +53,6 @@ plt.show()
 # Wartości bliskie 0 oznaczają brak korelacji liniowej.
 dane_numeryczne = dane.select_dtypes(include=np.number)
 macierz_korelacji = dane_numeryczne.corr()
-
 plt.figure(figsize=(10, 8))
 sns.heatmap(macierz_korelacji, annot=True, cmap='viridis', fmt=".2f")
 plt.title('Macierz korelacji zmiennych numerycznych', fontsize=16)
@@ -68,9 +63,7 @@ plt.show()
 # 'sex' -> 'sex_male' (1 jeśli mężczyzna, 0 jeśli kobieta)
 # 'smoker' -> 'smoker_yes' (1 jeśli palacz, 0 jeśli nie)
 # 'region' -> 4 nowe kolumny, po jednej dla każdego regionu
-
 dane_przetworzone = pd.get_dummies(dane, columns=['sex', 'smoker', 'region'], drop_first=True)
-
 print("\nDane po przetworzeniu (One-Hot Encoding):")
 print(dane_przetworzone.head())
 print("\n")
