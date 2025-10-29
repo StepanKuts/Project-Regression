@@ -83,7 +83,7 @@ Model regresji liniowej osiągnął satysfakcjonującą wydajność na zbiorze t
     ```
 2.  Przejdź do folderu projektu:
     ```bash
-    cd Portfolio-Project-Regression
+    cd Project-Regression
     ```
 3.  Stwórz i aktywuj wirtualne środowisko:
     ```bash
