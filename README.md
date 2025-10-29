@@ -99,5 +99,5 @@ Model regresji liniowej osiągnął satysfakcjonującą wydajność na zbiorze t
     ```
 5.  Uruchom główny skrypt:
     ```bash
-    python analiza_ubezpieczen.py
+    python analysis_medical_cost.py
     ```
