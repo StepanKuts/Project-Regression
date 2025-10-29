@@ -1,4 +1,4 @@
-git reser# 🤖 Projekt Portfolio: Przewidywanie Kosztów Ubezpieczenia Medycznego
+# 🤖 Projekt Portfolio: Przewidywanie Kosztów Ubezpieczenia Medycznego
 
 ## 📝 Opis Projektu
 
