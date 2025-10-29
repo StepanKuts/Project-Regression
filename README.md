@@ -1,10 +1,8 @@
-# 🤖 Projekt Portfolio: Przewidywanie Kosztów Ubezpieczenia Medycznego
+## Przewidywanie Kosztów Ubezpieczenia Medycznego
 
 ## 📝 Opis Projektu
 
 Celem tego projektu jest zbudowanie modelu regresji liniowej, który przewiduje wysokość rocznych kosztów medycznych ponoszonych przez pacjentów. Model bazuje na zestawie cech opisujących pacjenta, takich jak wiek, płeć, wskaźnik BMI, liczba dzieci, status palacza oraz region zamieszkania.
-
-Projekt ten demonstruje kluczowe etapy procesu uczenia maszynowego: od eksploracyjnej analizy danych (EDA), przez ich przygotowanie (preprocessing), aż po trening i ewaluację modelu.
 
 ---
 
@@ -27,7 +25,7 @@ Zbiór zawiera 1338 obserwacji i następujące kolumny:
 
 ## 🛠️ Użyte Technologie
 
-* **Język:** Python 3.x
+* **Język:** Python 3.12
 * **Biblioteki:**
     * **Pandas:** Do manipulacji i analizy danych.
     * **NumPy:** Do operacji numerycznych.
@@ -74,7 +72,7 @@ Model regresji liniowej osiągnął satysfakcjonującą wydajność na zbiorze t
 * **Wiek ma silny, pozytywny wpływ na koszty** – im starsza osoba, tym statystycznie wyższe są jej koszty leczenia.
 * Wskaźnik **BMI** również ma pozytywną korelację z kosztami, szczególnie u osób palących.
 
-![Wykres porównujący wartości rzeczywiste i przewidywane](https://i.imgur.com/uRcNAd9.png)
+![Wykres porównujący wartości rzeczywiste i przewidywane](https://imgur.com/a/QJW35vA)
 *Wykres przedstawia wartości rzeczywiste (oś X) w porównaniu do wartości przewidzianych przez model (oś Y). Punkty układające się blisko czerwonej linii świadczą o dobrej jakości predykcji.*
 
 ---
@@ -106,13 +104,5 @@ Model regresji liniowej osiągnął satysfakcjonującą wydajność na zbiorze t
     python analiza_ubezpieczen.py
     ```
 
----
 
-## 🏢 Potencjalne Zastosowania Komer-cyjne
 
-Algorytmy regresyjne, takie jak ten użyty w projekcie, mają szerokie zastosowanie w biznesie:
-
-* **Ubezpieczenia:** Dokładniejsze szacowanie ryzyka i wycena składek ubezpieczeniowych (na życie, zdrowotnych, komunikacyjnych).
-* **E-commerce i Sprzedaż:** Prognozowanie przyszłych przychodów, wartości życiowej klienta (Customer Lifetime Value) lub popytu na produkty.
-* **Nieruchomości:** Automatyczna wycena wartości domów i mieszkań na podstawie ich cech (lokalizacja, metraż, rok budowy).
-* **Finanse:** Przewidywanie cen akcji, kursów walut lub ryzyka kredytowego.
