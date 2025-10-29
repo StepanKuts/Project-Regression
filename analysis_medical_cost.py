@@ -12,8 +12,7 @@ try:
     dane = pd.read_csv('insurance.csv')
 except FileNotFoundError:
     print("BŁĄD: Nie znaleziono pliku 'insurance.csv'.")
-    print("Upewnij się, że plik znajduje się w tym samym folderze co skrypt.")
-    exit() # Zakończ program, jeśli nie ma danych
+    exit() 
 
 # Spojrzenie na dane
 print(dane.head()) 
