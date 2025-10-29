@@ -11,3 +11,5 @@ data/
 # Domyślne pliki Pythona, które warto ignorować
 __pycache__/
 *.pyc
+
+*.png
