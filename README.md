@@ -1,4 +1,5 @@
-# Przewidywanie Kosztów Ubezpieczenia Medycznego
+## Przewidywanie Kosztów Ubezpieczenia Medycznego
+
 
 ## 📝 Opis Projektu
 
@@ -72,9 +73,6 @@ Model regresji liniowej osiągnął satysfakcjonującą wydajność na zbiorze t
 * **Wiek ma silny, pozytywny wpływ na koszty** – im starsza osoba, tym statystycznie wyższe są jej koszty leczenia.
 * Wskaźnik **BMI** również ma pozytywną korelację z kosztami, szczególnie u osób palących.
 
-![Wykres porównujący wartości rzeczywiste i przewidywane](https://imgur.com/a/QJW35vA)
-*Wykres przedstawia wartości rzeczywiste (oś X) w porównaniu do wartości przewidzianych przez model (oś Y). Punkty układające się blisko czerwonej linii świadczą o dobrej jakości predykcji.*
-
 ---
 
 ## 🚀 Jak Uruchomić Projekt
@@ -103,4 +101,3 @@ Model regresji liniowej osiągnął satysfakcjonującą wydajność na zbiorze t
     ```bash
     python analiza_ubezpieczen.py
     ```
-
