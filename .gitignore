@@ -1,0 +1,13 @@
+# Folder środowiska wirtualnego
+venv/
+.venv/
+env/
+
+# Pliki z danymi
+*.csv
+*.pkl
+data/
+
+# Domyślne pliki Pythona, które warto ignorować
+__pycache__/
+*.pyc
